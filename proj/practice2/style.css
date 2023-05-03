@@ -1,0 +1,23 @@
+.header {
+    background: linear-gradient(#FFFAFA, #FAEBD7);   
+}
+
+a {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    font-size: 40px;
+    color: #293133;
+    text-decoration: none;
+    display: inline;
+}
+
+h1 {
+    color: azure;
+}
+
+
+a:hover {
+    color: FFCF48;
+    text-decoration: none;
+}
