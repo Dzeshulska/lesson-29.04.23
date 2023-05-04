@@ -1,23 +1,30 @@
-.header {
-    background: linear-gradient(#FFFAFA, #FAEBD7);   
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 a {
-    list-style: none;
-    margin: 0;
-    padding: 20px;
-    font-size: 40px;
-    color: #293133;
     text-decoration: none;
-    display: inline;
+    color: aliceblue;
 }
 
 h1 {
-    color: azure;
+    color: rgb(31, 190, 190);
 }
 
+.header {
+    background: #c74900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
 
-a:hover {
-    color: FFCF48;
-    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+
 }
